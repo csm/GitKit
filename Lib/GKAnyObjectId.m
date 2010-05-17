@@ -121,4 +121,15 @@
             val3, val4, val5];
 }
 
+# pragma mark NSCopying
+
+- (id) copyWithZone: (NSZone *) zone
+{
+    return [[GKAnyObjectId allocWithZone: zone] initWithValue1: val1
+                                                        value2: val2
+                                                        value3: val3
+                                                        value4: val4
+                                                        value5: val5];
+}
+
 @end

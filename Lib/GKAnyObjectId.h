@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <stdint.h>
 
-@interface GKAnyObjectId : NSObject
+@interface GKAnyObjectId : NSObject <NSCopying>
 {
     uint32_t val1, val2, val3, val4, val5;
 }
