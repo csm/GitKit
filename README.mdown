@@ -1,0 +1,5 @@
+An Objective-C library for working with [git](http://git-scm.com/) repositories.
+
+Right now, I am basing this off of [jgit](http://eclipse.org/jgit/). It will likely take on a more Objective-C-ish API instead of a Java one.
+
+GPLv3 for now. See COPYING.
