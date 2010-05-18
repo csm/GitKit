@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		70FA7DB211A1DEB50018192C /* GKAnyObjectId.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7DB011A1DEB50018192C /* GKAnyObjectId.h */; };
 		70FA7DB311A1DEB50018192C /* GKAnyObjectId.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7DB111A1DEB50018192C /* GKAnyObjectId.m */; };
+		70FA7DC611A1ED090018192C /* GKObjectId.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7DC411A1ED090018192C /* GKObjectId.h */; };
+		70FA7DC711A1ED090018192C /* GKObjectId.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7DC511A1ED090018192C /* GKObjectId.m */; };
+		70FA7DE611A250B00018192C /* GKTreeEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7DE411A250B00018192C /* GKTreeEntry.h */; };
+		70FA7DE711A250B00018192C /* GKTreeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7DE511A250B00018192C /* GKTreeEntry.m */; };
+		70FA7DEA11A251A80018192C /* GKTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7DE811A251A80018192C /* GKTree.h */; };
+		70FA7DEB11A251A80018192C /* GKTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7DE911A251A80018192C /* GKTree.m */; };
+		70FA7DF011A255FB0018192C /* GKFileMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FA7DEE11A255FB0018192C /* GKFileMode.h */; };
+		70FA7DF111A255FB0018192C /* GKFileMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FA7DEF11A255FB0018192C /* GKFileMode.m */; };
 		AA747D9F0F9514B9006C5449 /* GitKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* GitKit_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -16,6 +24,14 @@
 /* Begin PBXFileReference section */
 		70FA7DB011A1DEB50018192C /* GKAnyObjectId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKAnyObjectId.h; sourceTree = "<group>"; };
 		70FA7DB111A1DEB50018192C /* GKAnyObjectId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKAnyObjectId.m; sourceTree = "<group>"; };
+		70FA7DC411A1ED090018192C /* GKObjectId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKObjectId.h; sourceTree = "<group>"; };
+		70FA7DC511A1ED090018192C /* GKObjectId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKObjectId.m; sourceTree = "<group>"; };
+		70FA7DE411A250B00018192C /* GKTreeEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTreeEntry.h; sourceTree = "<group>"; };
+		70FA7DE511A250B00018192C /* GKTreeEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTreeEntry.m; sourceTree = "<group>"; };
+		70FA7DE811A251A80018192C /* GKTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKTree.h; sourceTree = "<group>"; };
+		70FA7DE911A251A80018192C /* GKTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKTree.m; sourceTree = "<group>"; };
+		70FA7DEE11A255FB0018192C /* GKFileMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKFileMode.h; sourceTree = "<group>"; };
+		70FA7DEF11A255FB0018192C /* GKFileMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKFileMode.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* GitKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libGitKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGitKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +105,14 @@
 			children = (
 				70FA7DB011A1DEB50018192C /* GKAnyObjectId.h */,
 				70FA7DB111A1DEB50018192C /* GKAnyObjectId.m */,
+				70FA7DC411A1ED090018192C /* GKObjectId.h */,
+				70FA7DC511A1ED090018192C /* GKObjectId.m */,
+				70FA7DE411A250B00018192C /* GKTreeEntry.h */,
+				70FA7DE511A250B00018192C /* GKTreeEntry.m */,
+				70FA7DE811A251A80018192C /* GKTree.h */,
+				70FA7DE911A251A80018192C /* GKTree.m */,
+				70FA7DEE11A255FB0018192C /* GKFileMode.h */,
+				70FA7DEF11A255FB0018192C /* GKFileMode.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -102,6 +126,10 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* GitKit_Prefix.pch in Headers */,
 				70FA7DB211A1DEB50018192C /* GKAnyObjectId.h in Headers */,
+				70FA7DC611A1ED090018192C /* GKObjectId.h in Headers */,
+				70FA7DE611A250B00018192C /* GKTreeEntry.h in Headers */,
+				70FA7DEA11A251A80018192C /* GKTree.h in Headers */,
+				70FA7DF011A255FB0018192C /* GKFileMode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FA7DB311A1DEB50018192C /* GKAnyObjectId.m in Sources */,
+				70FA7DC711A1ED090018192C /* GKObjectId.m in Sources */,
+				70FA7DE711A250B00018192C /* GKTreeEntry.m in Sources */,
+				70FA7DEB11A251A80018192C /* GKTree.m in Sources */,
+				70FA7DF111A255FB0018192C /* GKFileMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
